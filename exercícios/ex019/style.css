@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: pink;
+}
+
+h2 {
+    color:violet;
+}
+
+#principal {
+    color: red;
+    font-size: 2em;
+}
+
+#principal2 {
+    color: red;
+}
+
+#principal3 {
+    color:red;
+}
+
+.paragrafo1 {
+    color: green;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: helvetica;
+    font-style: italic;
+}
+
+.paragrafo2 {
+    color: yellow;
+}
+
+#paragrafo3 {
+    color: rgb(204, 47, 73);
+}
+
+.subtitulo1 {
+    text-align: center;
+}
+
+.teste1 {
+    color: black;
+}
+
+.teste2 {
+    color: magenta
+}

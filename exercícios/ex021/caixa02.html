@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(153, 151, 151);
+            border-radius: 10px;
+        }
+
+        aside {
+            background-color: rgb(65, 67, 68);
+            padding: 4px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        aside > p {
+            margin: 0px;
+        }
+
+        nav {
+            background-color: rgb(167, 165, 165);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration:overline;
+        }
+
+        nav > a {
+            font-style: normal;
+            font-weight: bold;
+            color: rgb(78, 16, 136);
+            padding: 5px;
+            text-decoration: none;border-radius: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        article > h2 {
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 4px;
+            text-align: center;
+            font-size: 0.7em;
+            border-radius: 10px;
+        }
+
+        #assuntos {
+            margin: 10px;
+            padding: 30px;
+            background-color: rgb(92, 91, 91);
+            font-size: 1.5em;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        #assuntos > p {
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(126, 125, 125);
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            font-size: 0.8em;
+            text-align: left;
+            text-decoration: underline;
+            border-radius: 10px;
+            
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esportes Política Tecnologia</h2>
+            <p>Deixa eu testar algo.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta suscipit eum culpa dolor itaque laboriosam odio autem officia maiores magni praesentium ab quis sit iste officiis quisquam, atque odit vitae. Clicando <a href="#">aqui</a> você consegue acessar o link para o artigo.</p>
+                <aside>
+                    <p>Artigo escrito por Juliano Alvim</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="#">Alvim</a> LTDA</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #B2C3FA, #9F5FFA);
+    background-attachment: fixed;
+}
+
+.caixa1 {
+    width: 600px;
+    margin:20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.caixa2 {
+    width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #120a1dbb;
+    width: 600px;
+    margin:20px auto;
+    padding: 10px;
+}
+
+h1 {
+    color: #6C5FFA;
+    text-align: center;
+    text-shadow: 1px 1px 2px #3a3386c2;
+}
+
+h2 {
+    color: #007FE8;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
